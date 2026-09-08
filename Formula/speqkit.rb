@@ -10,28 +10,28 @@
 class Speqkit < Formula
   desc "Test framework that is mostly plugins"
   homepage "https://github.com/speqkit/speqkit"
-  version "0.9.0"
+  version "0.9.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/speqkit/speqkit/releases/download/v0.9.0/speqkit-v0.9.0-darwin-arm64.tar.gz"
-      sha256 "e6901242e41520dc999c3557fefe931c4faef8666b3f829b53e7b667f7305f14"
+      url "https://github.com/speqkit/speqkit/releases/download/v0.9.1/speqkit-v0.9.1-darwin-arm64.tar.gz"
+      sha256 "e53d8326343654e5a168a04f1756d221ff90b69e113217d5c40e41a703c414b5"
     end
     on_intel do
-      url "https://github.com/speqkit/speqkit/releases/download/v0.9.0/speqkit-v0.9.0-darwin-x64.tar.gz"
-      sha256 "aa70a1776c49d7b4321921f94401c06d928fc64dd0cd3c34b1b7c04227fb2193"
+      url "https://github.com/speqkit/speqkit/releases/download/v0.9.1/speqkit-v0.9.1-darwin-x64.tar.gz"
+      sha256 "0c6be63a982feeb5fafac7582fadf92b41fa09be6e01ab9120d463bf0c316609"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/speqkit/speqkit/releases/download/v0.9.0/speqkit-v0.9.0-linux-arm64.tar.gz"
-      sha256 "e778afaed17fb71d92d47a28f0b81d1b5cd9c13cc7d07fa187c54856056134b3"
+      url "https://github.com/speqkit/speqkit/releases/download/v0.9.1/speqkit-v0.9.1-linux-arm64.tar.gz"
+      sha256 "27d391f753222200c0e3d002bf08793f4f0902a4acb8d86b8fe624d7904abf02"
     end
     on_intel do
-      url "https://github.com/speqkit/speqkit/releases/download/v0.9.0/speqkit-v0.9.0-linux-x64.tar.gz"
-      sha256 "07ba554e148a8c5af284defc68cc7526fb080ad99b3a3fef085e307fc635c959"
+      url "https://github.com/speqkit/speqkit/releases/download/v0.9.1/speqkit-v0.9.1-linux-x64.tar.gz"
+      sha256 "889bd9384288bc44b853230020236e0b9e2f8f5c5f66ea0a2d4f837c628947ff"
     end
   end
 
